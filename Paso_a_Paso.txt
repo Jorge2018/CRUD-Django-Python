@@ -1,0 +1,23 @@
+1 Creacion de carpeta en disco C (Django)
+2 Creacion de entorno virtual (python -m venv entornoVirtual01)
+3 Activacion de entorno virtual (entornoVirtual01\scripts\activate)
+4 Instalacion de django (pip install Django==2.2)
+5 Creacion de proyecto en entornovirtual (django-admin startproject crud01)
+6 Ingreso al directorio. -> proyecto recien creado (cd crud)
+7 Test verificacion de creacion del proyecto, una vez ejecutado se debe comprobar la url (python manage.py runserver)
+8 Detencion de la ejecucion (Ctrl + c)
+9 Creacion de modulo para el sistema crud (python manage.py startapp postres)
+10 Registro del modulo en archivo settings.py (agregar a finalizar el apartado INSTALLED_APPS ('postres',)
+11 Instalacion de mysqlclient (pip install mysqlclient)
+12 Definicion de tb en archivo models.py 
+13 Configuracion de db en archivo settings.py 
+14 Migracion de la tb (python manage.py makemigrations postres)
+15 Instanciar vistas en archivo views.py
+16 Instanciar utilidades en archivo views.py
+17 Creacion de genericas en archivo views.py
+18 Creacion de rutas en archivo urls.py
+19 Creacion de directorio templates/postres
+20 Creacion de archivos .html (actualizar, crear, detalles, index)
+21 Instalacion y configuracion de paquetes.
+
+path=('',views.inicio, name='inicio'),SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
